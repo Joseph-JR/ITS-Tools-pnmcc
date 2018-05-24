@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 var="https://thamazghasmail.github.io/ITS-commandline/fr.lip6.move.gal.itscl.product-linux.gtk.x86_64.zip"
 archive="fr.lip6.move.gal.itscl.product-linux.gtk.x86_64.zip"
 wget $var
