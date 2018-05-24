@@ -20,8 +20,11 @@ my $call = <IN>;
 chomp $call;
 if ($ARGV[1] eq "-marcie") {
     $call =~ s/runatest/runmarcietest/g;
+} elsif ($ARGV[1] eq "-gspn") {
+    $call =~ s/runatest/runatest.sh/g; 
+
 } elsif ($ARGV[1] eq "-greatspn") { #Modif : -gspn --> -greatspn
-    $call =~ s/runatest/runGreatSPN.sh/g; #Modif : runatest --> rungreatSPN.sh
+    $call =~ s/runatest/rungreatSPN_test.sh/g; #Modif : runatest --> rungreatSPN.sh
 } else {
     $call =~ s/runmarcietest/runatest/g;
     
