@@ -9,6 +9,7 @@ jdk: oraclejdk8
 before_script:
  - echo $JAVA_OPTS
  - export JAVA_OPTS='-Xms1g -Xmx3g'
+ - export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$(pwd)/usr/local/lib/
 
 
 env :
