@@ -21,5 +21,4 @@ script :
  - ./install_eclipse.sh
  - set -e
  - set -x
- - (rc=0 ; for MODEL in $TEST ; do echo "./run_test.pl $MODEL $FLAGS" ; ./run_test.pl $MODEL $FLAGS  || cat /tmp/.eclipse/*.log
- &&  rc=$? ; done; exit $rc)
+ - (rc=0 ; for MODEL in $TEST ; do echo "./run_test.pl $MODEL $FLAGS" ; ./run_test.pl $MODEL $FLAGS  || cat /tmp/.eclipse/*.log &&  rc=$? ; done; exit $rc)
