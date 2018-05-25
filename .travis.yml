@@ -12,7 +12,7 @@ before_script:
 
 
 env :
- - FLAGS="-greatspnpath $(pwd)/usr/local/GreatSPN/bin/RGMEDD2"  TEST=$(ls oracle/*PT*SS.out)
+ - FLAGS="-greatspnpath $(pwd)/usr/local/GreatSPN/bin/RGMEDD2 -order META"  TEST=$(ls oracle/*PT*SS.out)
  - FLAGS="-greatspnpath $(pwd)/usr/local/GreatSPN/bin/RGMEDD2 -order FR"  TEST=$(ls oracle/*PT*SS.out)
  
 
