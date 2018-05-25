@@ -17,7 +17,7 @@ env :
  
 
 script :
- - ./installGreatSPN.sh
+ - source ./installGreatSPN.sh
  - ./install_eclipse.sh
  - set -e
  - set -x
