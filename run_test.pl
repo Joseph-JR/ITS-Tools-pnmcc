@@ -21,7 +21,10 @@ chomp $call;
 if ($ARGV[1] eq "-marcie") {
     $call =~ s/runatest/runmarcietest/g;
 } elsif ($ARGV[1] eq "-gspn") {
-    $call =~ s/runatest/rungspntest/g;
+    $call =~ s/runatest/runatest.sh/g; 
+
+} elsif ($ARGV[1] eq "-greatspn") { #Modif : -gspn --> -greatspn
+    $call =~ s/runatest/rungreatSPN_test.sh/g; #Modif : runatest -->  rungreatSPN.sh
 } else {
     $call =~ s/runmarcietest/runatest/g;
     
