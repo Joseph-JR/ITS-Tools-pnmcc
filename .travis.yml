@@ -17,7 +17,7 @@ env :
  
 
 script :
- - ./install_greatspn.sh
+ - ./installGreatSPN.sh
  - ./install_eclipse.sh
  - (rc=0 ; for MODEL in $TEST ; do ./run_test.pl $MODEL.out $FLAGS || rc=$? ; done; exit $rc) 
 
