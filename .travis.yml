@@ -12,8 +12,10 @@ before_script:
 
 
 env :
- - FLAGS="-greatspnpath $(pwd)/usr/local/GreatSPN/bin/RGMEDD2 -order META"  TEST=$(ls oracle/*PT*SS.out)
- - FLAGS="-greatspnpath $(pwd)/usr/local/GreatSPN/bin/RGMEDD2 -order FR"  TEST=$(ls oracle/*PT*SS.out)
+ - FLAGS="-greatspnpath $(pwd)/usr/local/GreatSPN/bin/RGMEDD2 -order META"  TEST="oracle/AirplaneLD-PT-0010-SS.out oracle/Angiogenesis-PT-01-SS.out oracle/AutoFlight-PT-01a-SS.out oracle/AutoFlight-PT-01b-SS.out oracle/CircadianClock-PT-000001-SS.out oracle/CircularTrains-PT-012-SS.out oracle/CSRepetitions-PT-02-SS.out oracle/DatabaseWithMutex-PT-02-SS.out oracle/Dekker-PT-010-SS.out oracle/DES-PT-00a-SS.out oracle/Diffusion2D-PT-D05N010-SS.out oracle/DLCshifumi-PT-2a-SS.out oracle/Eratosthenes-PT-010-SS.out oracle/Eratosthenes-PT-200-SS.out oracle/Eratosthenes-PT-500-SS.out oracle/FMS-PT-002-SS.out oracle/IBM319-PT-none-SS.out oracle/Kanban-PT-0005-SS.out oracle/MAPK-PT-008-SS.out oracle/Peterson-PT-2-SS.out oracle/Raft-PT-02-SS.out oracle/Railroad-PT-005-SS.out oracle/SwimmingPool-PT-01-SS.out oracle/TokenRing-PT-005-SS.out
+"
+ - FLAGS="-greatspnpath $(pwd)/usr/local/GreatSPN/bin/RGMEDD2 -order FR"  TEST="oracle/AirplaneLD-PT-0010-SS.out oracle/Angiogenesis-PT-01-SS.out oracle/AutoFlight-PT-01a-SS.out oracle/AutoFlight-PT-01b-SS.out oracle/CircadianClock-PT-000001-SS.out oracle/CircularTrains-PT-012-SS.out oracle/CSRepetitions-PT-02-SS.out oracle/DatabaseWithMutex-PT-02-SS.out oracle/Dekker-PT-010-SS.out oracle/DES-PT-00a-SS.out oracle/Diffusion2D-PT-D05N010-SS.out oracle/DLCshifumi-PT-2a-SS.out oracle/Eratosthenes-PT-010-SS.out oracle/Eratosthenes-PT-200-SS.out oracle/Eratosthenes-PT-500-SS.out oracle/FMS-PT-002-SS.out oracle/IBM319-PT-none-SS.out oracle/Kanban-PT-0005-SS.out oracle/MAPK-PT-008-SS.out oracle/Peterson-PT-2-SS.out oracle/Raft-PT-02-SS.out oracle/Railroad-PT-005-SS.out oracle/SwimmingPool-PT-01-SS.out oracle/TokenRing-PT-005-SS.out
+"
  
 
 script :
